@@ -1,3 +1,10 @@
+## Dynamic React Navigation Initial Route Example
+
+This example demonstrates how to configure a dynamic initial route using [React Navigation](https://reactnavigation.org/).
+Specify, this repo addresses [#458](https://github.com/react-community/react-navigation/issues/458).
+In this app, we want our initial route to render the main screen if the user is logged in, otherwise we want to render the login screen.
+
+
 This project was bootstrapped with [Create React Native App](https://github.com/react-community/create-react-native-app).
 
 Below you'll find information about performing common tasks. The most recent version of this guide is available [here](https://github.com/react-community/create-react-native-app/blob/master/react-native-scripts/template/README.md).
