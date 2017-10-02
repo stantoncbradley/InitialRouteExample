@@ -1,4 +1,3 @@
-import React from 'react';
 import { StackNavigator } from 'react-navigation';
 import InitialRoute from './InitialRoute';
 import LoginScreen from './LoginScreen';
@@ -15,10 +14,4 @@ const StackNavigationConfig = {
   headerMode: 'none',
 };
 
-const Navigation = StackNavigator(routeConfigs, StackNavigationConfig);
-
-const Nav = ({ screenProps }) => (
-  <Navigation screenProps={screenProps} />
-);
-
-export default Nav;
+export default StackNavigator(routeConfigs, StackNavigationConfig);
